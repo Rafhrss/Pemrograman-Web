@@ -15,19 +15,18 @@ p {
 }
 
 /* 2. CLASS SELECTOR - dimulai dengan titik (.) */
-.highlight {
-  background-color: #fff3cd;
-  padding: 10px;
-  border-left: 4px solid #ffc107;
-  margin: 10px 0;
-}
-
 .warning {
   background-color: #f8d7da;
   color: #721c24;
   padding: 10px;
   border: 1px solid #f5c6cb;
   border-radius: 4px;
+}
+.highlight {
+  background-color: #fff3cd;
+  padding: 10px;
+  border-left: 4px solid #ffc107;
+  margin: 10px 0;
 }
 
 .border {
