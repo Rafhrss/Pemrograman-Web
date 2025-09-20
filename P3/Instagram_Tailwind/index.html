@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>rafhris._</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body class="bg-black text-white">
+  <header class="flex justify-between items-center p-4">
+    <div class="flex items-center gap-2">
+      <a href="#" class="font-bold text-xl">rafhris._</a>
+      <a href="#" class="fa-solid fa-chevron-down text-sm"></a>
+    </div>
+    <div class="flex items-center gap-4 text-2xl">
+      <a href="#" class="fa-solid fa-plus"></a>
+      <a href="#" class="fa-solid fa-bars"></a>
+    </div>
+  </header>
+
+  <main class="p-4 md:max-w-4xl mx-auto">
+    <div class="flex flex-col gap-4 md:flex-row md:items-center md:gap-16 md:px-16">
+      <!-- Foto + Statistik (mobile) -->
+      <div class="flex items-center justify-between md:block w-full md:w-auto">
+        <!-- Profile Picture -->
+        <div class="w-20 h-20 md:w-40 md:h-40 rounded-full bg-gray-700 flex items-center justify-center overflow-hidden flex-shrink-0">
+          <img src="img/saya.jpg" alt="Profile Picture" class="w-full h-full object-cover">
+        </div>
+
+        <!-- Statistik (mobile: kanan foto) -->
+        <div class="flex-1 flex justify-around text-center md:hidden">
+          <a href="#">
+            <div>
+              <p class="font-bold">0</p>
+              <p class="text-sm">kiriman</p>
+            </div>
+          </a>
+          <a href="#">
+            <div>
+              <p class="font-bold">0</p>
+              <p class="text-sm">pengikut</p>
+            </div>
+          </a>
+          <a href="#">
+            <div>
+              <p class="font-bold">0</p>
+              <p class="text-sm">diikuti</p>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="flex-1 flex flex-col gap-4">
+        <div class="hidden md:flex items-center gap-4">
+          <h2 class="text-2xl font-light">rafhris._</h2>
+          <a href="#"><p class="bg-gray-700 hover:bg-gray-600 text-white text-sm font-semibold px-3 py-1.5 rounded-lg">Edit profil</p></a>
+          <a href="#"><p class="bg-gray-700 hover:bg-gray-600 text-white text-sm font-semibold px-3 py-1.5 rounded-lg">Lihat arsip</p></a>
+          <a href="#" class="fa-solid fa-gear text-xl"></a>
+        </div>
+
+        <div class="hidden md:flex gap-8">
+          <a href="#"><p class="font-bold">0 <span class="font-normal">kiriman</span></p></a>
+          <a href="#"><p class="font-bold">0 <span class="font-normal">pengikut</span></p></a>
+          <a href="#"><p class="font-bold">0 <span class="font-normal">diikuti</span></p></a>
+        </div>
+        <div>
+          <p class="font-bold">Rafh</p>
+          <a href="https://taplink.cc/rafahars" class="text-sm text-blue-400">
+            <i class="fa-solid fa-link"></i> Deskripsi
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex overflow-x-auto gap-4 p-4 mt-8 md:justify-start md:mt-16">
+      <a href="#" class="flex flex-col items-center flex-shrink-0 w-20">
+        <div class="w-16 h-16 rounded-full border-2 border-gray-400 p-[2px] overflow-hidden">
+          <img src="img/makan.jpg" alt="Highlight 1" class="w-full h-full rounded-full object-cover">
+        </div>
+        <p class="text-sm mt-1">Sorotan</p>
+      </a>
+      <a href="#" class="flex flex-col items-center flex-shrink-0 w-20">
+        <div class="w-16 h-16 rounded-full border-2 border-gray-400 p-[2px] overflow-hidden">
+          <img src="img/saya2.jpg" alt="Highlight 2" class="w-full h-full rounded-full object-cover">
+        </div>
+        <p class="text-sm mt-1">Sorotan</p>
+      </a>
+      <a href="#" class="flex flex-col items-center flex-shrink-0 w-20">
+        <div class="w-16 h-16 rounded-full border-2 border-gray-400 border-dashed flex items-center justify-center text-gray-400">
+          <i class="fa-solid fa-plus text-xl"></i>
+        </div>
+        <p class="text-sm mt-1">Baru</p>
+      </a>
+    </div>
+
+    <div class="md:hidden flex justify-around border-t border-gray-700 mt-8">
+      <a href="#" class="p-4 border-t-2 border-white -mt-px"><i class="fa-solid fa-table text-xl"></i></a>
+      <a href="#" class="p-4 text-gray-500"><i class="fa-regular fa-bookmark text-xl"></i></a>
+      <a href="#" class="p-4 text-gray-500"><i class="fa-regular fa-id-card text-xl"></i></a>
+    </div>
+
+    <div class="hidden md:flex justify-center border-t border-gray-700 mt-8 text-gray-500">
+      <a href="#" class="p-4 flex items-center gap-5 border-t-2 border-white text-white -mt-px">
+        <i class="fa-solid fa-table text-base"></i>
+        <p class="uppercase font-semibold text-xs"></p>
+      </a>
+      <a href="#" class="p-4 flex items-center gap-5">
+        <i class="fa-regular fa-bookmark text-base"></i>
+        <p class="uppercase font-semibold text-xs"></p>
+      </a>
+      <a href="#" class="p-4 flex items-center gap-5">
+        <i class="fa-regular fa-id-card text-base"></i>
+        <p class="uppercase font-semibold text-xs"></p>
+      </a>
+    </div>
+    
+    <!-- Post Grid -->
+    <div class="grid grid-cols-3 gap-0.5 mt-0.5">
+      <a href="#" class="aspect-square bg-gray-700 overflow-hidden">
+        <img src="img/foto1.png" class="w-full h-full object-cover">
+      </a>
+      <a href="#" class="aspect-square bg-gray-700 overflow-hidden">
+        <img src="img/foto2.png" class="w-full h-full object-cover">
+      </a>
+      <a href="#" class="aspect-square bg-gray-700 overflow-hidden">
+        <img src="img/foto3.png" class="w-full h-full object-cover">
+      </a>
+      <a href="#" class="aspect-square bg-gray-700 overflow-hidden">
+        <img src="img/foto4.png" class="w-full h-full object-cover">
+      </a>
+      <a href="#" class="aspect-square bg-gray-700 overflow-hidden">
+        <img src="img/foto5.png" class="w-full h-full object-cover">
+      </a>
+      <a href="#" class="aspect-square bg-gray-700 overflow-hidden">
+        <img src="img/foto6.png" class="w-full h-full object-cover">
+      </a>
+    </div>
+  </main>
+</body>
+</html>
