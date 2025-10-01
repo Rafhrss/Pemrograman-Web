@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;    /* menentukan jenis font */
+    line-height: 1.6;                  /* menentukan tinggi baris */
+    margin: 20px;                       /* menentukan margin atas, bawah, kiri, dan kanan */
+    background-color: #f4f4f4;        /* menentukan warna latar belakang */
+}
+h1 {
+    color: #333;                    /* menentukan warna teks */
+    text-align: center;               /* menentukan posisi teks */
+    background-color: #4caf50;
+    color: white;
+    padding: 20px;                    /* menentukan padding atas, bawah, kiri, dan kanan */
+    margin: 0 0 20px 0;
+}
+h2 {
+  color: #2196F3;
+  border-bottom: 2px solid #2196F3;   /* menetukan warna border dan ketebalan  */
+  padding-bottom: 5px;
+}
+
+h3 {
+  color: #FF9900;
+}
+
+/* Styling untuk paragraf */
+p {
+  color: #666;
+  font-size: 16px;
+}
+
+/* Styling untuk list */
+ul {
+  background-color: white;
+  padding: 15px;
+  border-left: 4px solid #4CAF50;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+/* Class selector */
+.highlight {
+  background-color: white;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.info-box {
+  background-color: #e7f3ff;
+  border: 1px solid #2196F3;
+  padding: 15px;
+  margin: 20px 0;
+  border-radius: 5px;
+}
